@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTutorail", "MVCTutorail\MVCTutorail.csproj", "{AB90C3C2-FF69-4A90-8CC8-7F01C27D8721}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB90C3C2-FF69-4A90-8CC8-7F01C27D8721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB90C3C2-FF69-4A90-8CC8-7F01C27D8721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB90C3C2-FF69-4A90-8CC8-7F01C27D8721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB90C3C2-FF69-4A90-8CC8-7F01C27D8721}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

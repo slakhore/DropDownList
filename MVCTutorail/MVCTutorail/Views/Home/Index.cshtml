@@ -1,0 +1,55 @@
+﻿@model IEnumerable<MVCTutorail.Models.EmployeeViewModel>
+
+
+@{
+    ViewBag.Title = "Employee Name List";
+}
+
+<h2>Employee Name List</h2>
+<div class="container" style="width:40%;margin-top:2%">
+    @Html.DropDownListFor(model=>model.DeptID, ViewBag.EmploymentList as SelectList,"---Select---", new { @class="form-control"})
+
+</div>
+
+
+
+
+
+
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*@model IEnumerable<MVCTutorail.Models.Employee>
+
+@using MVCTutorail.Models
+
+@{
+    ViewBag.Title = "Employee Name List";
+}
+
+<h2>Employee Name List</h2>
+
+<ul>
+    @foreach (Employee item in @Model)
+    {
+        <li>
+            @Html.ActionLink(item.EmpName, "Details", new { id = item.EmpID });
+        </li>
+    }
+  @Html.ActionLink("Back To Department List","DepartmentIndex")    
+</ul>*@
+
